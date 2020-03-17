@@ -7,12 +7,12 @@
 } 
 
 div.title{
-  width: 85%;
+  width: 75%;
   border-bottom-style: double;
   border-color: white;
   border-width: 10px;
   font-size: 33px;
-  margin-left: 250px;
+  margin-left: 200px;
   text-align: center;
 
 }
@@ -63,7 +63,7 @@ svg{
   height: 600px;
   /*background-color: #cccccc;*/
   margin-top: 20px;
-  margin-left: 75px;
+  margin-left: 50px;
   border-style: dashed;
   border-color: #bbbbbb;
 
@@ -73,7 +73,7 @@ svg.destination{
   width:1000px;
   height: 600px;
   /*background-color: #cccccc;*/
-  margin-left: 75px;
+  margin-left: 50px;
 }
 
 .line {
