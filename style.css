@@ -63,7 +63,8 @@ svg{
   height: 600px;
   /*background-color: #cccccc;*/
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
   border-style: dashed;
   border-color: #bbbbbb;
 
@@ -73,7 +74,8 @@ svg.destination{
   width:1000px;
   height: 600px;
   /*background-color: #cccccc;*/
-  margin-left: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .line {
