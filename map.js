@@ -15,12 +15,12 @@ function flowMapSource(){
       .scale(210)
       .translate([width/2.05, height/1.8]);
 
-  const zoom = d3.zoom()
-                      .scaleExtent([1,6])
-                      .on("zoom", zoomed);
+//   const zoom = d3.zoom()
+//                       .scaleExtent([1,6])
+//                       .on("zoom", zoomed);
 
   const g = svg.append('g');
-  svg.call(zoom);
+//   svg.call(zoom);
 
 // Adding text in the svg canvas
         //   svg.append("text")
@@ -192,13 +192,13 @@ function flowMapSource(){
                               // .attr("fill", "red")
 
 
-          function zoomed(){
-              svg
-        .selectAll(".world,.line, .source") // To prevent stroke width from scaling
-        // .select('line')
-        .attr('transform', d3.event.transform);
+//           function zoomed(){
+//               svg
+//         .selectAll(".world,.line, .source") // To prevent stroke width from scaling
+//         // .select('line')
+//         .attr('transform', d3.event.transform);
 
-          }
+//           }
 
           countries
                 .on("mouseover", function (d){ d3.select(this).append("title") .text(function(d){ return d.properties.name})})
@@ -271,7 +271,7 @@ function flowMapDestination(){
                       .on("zoom", zoomed);
 
   const g = svg.append('g');
-  svg.call(zoom);
+//   svg.call(zoom);
 
       // Draw the map
     var countries = svg.append("g")
@@ -332,12 +332,12 @@ function flowMapDestination(){
                               
 
           // Adding the zoom functionality
-          function zoomed(){
-              svg
-        .selectAll(".world,.line, .destination, .text_to") 
-        .attr('transform', d3.event.transform);
+//           function zoomed(){
+//               svg
+//         .selectAll(".world,.line, .destination, .text_to") 
+//         .attr('transform', d3.event.transform);
 
-          }
+//           }
 
           // Adding the map interactivity
           countries
