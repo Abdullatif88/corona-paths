@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>HTML playground</title>
+
+		<!-- external CSS style sheets go here -->
+    <link rel="stylesheet" href="style.css">
+		<!-- external JavaScript documents go here -->
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+	<script src="map.js"></script>
+    <script src="world.js"></script>
+    <script src="paths.js"></script>
+    <script src="paths2.js"></script>
+		<!-- <script src="world2_1.js"></script> -->
+
+
+	</head>
+
+	<body>
+
+		<div class= "title">
+			<h1>
+				<p>The Migration of the Corona Virus</p>
+
+				<p>
+					Hover the Mouse over an Origin or Distination for Interactivity
+				</p>
+
+
+			</h1>
+
+
+
+		</div>
+
+		<div class = "mapTitle">
+
+			<div class= "originText">
+
+				<h2>
+
+					<p> Virus Hubs (Origin)</p>
+
+				</h2>
+				
+
+			</div>
+
+			<div class="distinText">
+				
+				<h2>
+
+					<p> Source of Infection for each Country (Distination)</p>
+
+				</h2>
+
+			</div>
+			
+		</div>
+
+		<!-- A place to place / invoke your JavaScript code -->
+		<script>
+      flowMapSource();
+      flowMapDestination();
+		</script>
+
+
+
+	</body>
+
+</html>
