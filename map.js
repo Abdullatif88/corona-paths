@@ -266,9 +266,9 @@ function flowMapDestination(){
       .translate([width/2.05, height/1.8]);
 
   // Setting the zoom interactivity
-  const zoom = d3.zoom()
-                      .scaleExtent([1,6])
-                      .on("zoom", zoomed);
+//   const zoom = d3.zoom()
+//                       .scaleExtent([1,6])
+//                       .on("zoom", zoomed);
 
   const g = svg.append('g');
 //   svg.call(zoom);
