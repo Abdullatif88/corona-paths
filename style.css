@@ -44,14 +44,14 @@ div.mapTitle{
 }
 
 .originText{
-  flex: 1;
+/*   flex: 1; */
   /*position: relative;*/
 
   /*width: 20%;*/
 }
 
 .destinText{
-  flex: 1;
+/*   flex: 1; */
   /*position: relative;*/
   /*width: 20%;*/
   /*margin-left: 50%;*/
